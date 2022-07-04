@@ -1,0 +1,16 @@
+overwrite: true
+watch:
+  - ./src/schema.gql
+schema: 
+  - ./src/schema.gql
+documents: null
+generates:
+  src/generated/graphql.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+    config:
+      preResolveTypes: true
+hooks:
+    afterAllFileWrite:
+      - yarn prettier --write ./src/generated/graphql.ts 
