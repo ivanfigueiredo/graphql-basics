@@ -20,5 +20,5 @@ export type Scalars = {
 
 export type Query = {
   __typename?: 'Query';
-  uptime: Scalars['Float'];
+  uptime: Scalars['String'];
 };

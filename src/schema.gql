@@ -2,6 +2,16 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+input CreateUserInput {
+  email: String!
+  firstName: String!
+  password: String!
+}
+
+type Mutation {
+  createUser(input: CreateUserInput!): String!
+}
+
 type Query {
   uptime: String!
 }
