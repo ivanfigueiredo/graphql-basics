@@ -1,0 +1,23 @@
+#docker-compose.yml
+version: '3'
+
+services:
+  mongo:
+    image: mongo
+    container_name: db-mongo
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_DATABASE=${MONGO_DATABASE_NAME}
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USER}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
+
+    volumes:
+      - /home/ivan/workspace/api/data
+    networks:
+      - mongo-network
+
+networks:
+  mongo-network:
+    driver: bridge
