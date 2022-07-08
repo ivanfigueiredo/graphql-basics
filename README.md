@@ -106,7 +106,7 @@ API developed in order to study the NestJS framework, as well as GraphQL. If you
 ## Stay in touch
 
 - Author - Ivan Figueiredo
-- Website - [https://www.linkedin.com/in/ivan-figueiredo-a32b39214/](https://www.linkedin.com/in/ivan-figueiredo-a32b39214/)
+- Linkedin - [https://www.linkedin.com/in/ivan-figueiredo-a32b39214/](https://www.linkedin.com/in/ivan-figueiredo-a32b39214/)
 
 ## License
 
