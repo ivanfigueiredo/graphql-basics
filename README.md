@@ -29,45 +29,85 @@
 ## Installation
 
 ```bash
-$ npm install
+$ yarn install
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ npm run start
+$ yarn start
 
 # watch mode
-$ npm run start:dev
+$ yarn dev
 
 # production mode
-$ npm run start:prod
+$ yarn start:prod
+```
+
+## Container Docker
+
+```bash
+# up
+$ yarn up
+
+# down
+$ yarn down
+```
+
+## Prettier - Code Formatting
+
+```bash
+# Formatting
+$ yarn format
+```
+
+## Build Application
+
+```bash
+# Remove dist
+$ yarn prebuild
+
+# Build
+$ yarn build
+```
+
+## Check Eslint
+
+```bash
+# Lint
+$ yarn lint
+```
+
+## Generate Types GraphQL
+
+```bash
+# Generate codegen
+yarn codegen
 ```
 
 ## Test
 
 ```bash
 # unit tests
-$ npm run test
+$ yarn test
 
 # e2e tests
-$ npm run test:e2e
+$ yarn test:e2e
 
 # test coverage
-$ npm run test:cov
+$ yarn test:cov
 ```
 
 ## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+API developed in order to study the NestJS framework, as well as GraphQL. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - Ivan Figueiredo
+- Website - [https://www.linkedin.com/in/ivan-figueiredo-a32b39214/](https://www.linkedin.com/in/ivan-figueiredo-a32b39214/)
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+[MIT licensed](LICENSE).
