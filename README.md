@@ -90,7 +90,7 @@ yarn codegen
 
 ```bash
 # unit tests
-$ npm run test
+$ yarn test
 
 # e2e tests
 $ yarn test:e2e
