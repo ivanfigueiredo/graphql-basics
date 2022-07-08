@@ -36,26 +36,67 @@ $ npm install
 
 ```bash
 # development
-$ npm run start
+$ yarn start
 
 # watch mode
-$ npm run start:dev
+$ yarn dev
 
 # production mode
-$ npm run start:prod
+$ yarn start:prod
+```
+
+## Container Docker
+
+```bash
+# up
+$ yarn up
+
+# down
+$ yarn down
+```
+
+## Prettier - Code Formatting
+
+```bash
+# Formatting
+$ yarn format
+```
+
+## Build Application
+
+```bash
+# Remove dist
+$ yarn prebuild
+
+# Build
+$ yarn build
+```
+
+## Check Eslint
+
+```bash
+# Lint
+$ yarn lint
+```
+
+## Generate Types GraphQL
+
+```bash
+# Generate codegen
+yarn codegen
 ```
 
 ## Test
 
 ```bash
 # unit tests
-$ npm run test
+$ yarn test
 
 # e2e tests
-$ npm run test:e2e
+$ yarn test:e2e
 
 # test coverage
-$ npm run test:cov
+$ yarn test:cov
 ```
 
 ## Support
